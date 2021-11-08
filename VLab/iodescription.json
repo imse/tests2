@@ -36,7 +36,7 @@
   ],
   "outputs": [
  {
-      "id": "output_file",
+      "id": "output.txt",
       "outputType": "individual",
       "valueType": "value",
       "description": "The output file",
