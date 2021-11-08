@@ -1,10 +1,11 @@
 #!/bin/bash
 
-#read -p 'Start date: ' f1
-#read -p 'Endd date: ' f2
+read -p 'Start date: ' file1
+read -p 'Endd date: ' file2
 
 #python test.py $f1 $f2
-
+echo $file1
+echo $file2
 
 python test.py $file1 $file2
 
