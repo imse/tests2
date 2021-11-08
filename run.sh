@@ -3,15 +3,17 @@
 #read -p 'Start date: ' file1
 #read -p 'Endd date: ' file2
 
-var file1
-var file2
-echo 'hola'
+#var file1 # var: command not found
+
+echo 'hola'  #ok
 #python test.py $f1 $f2
-echo $file1
-echo file1
+echo ${file1}
+#echo file1 #print file1 as string
 
-python test.py $file1 file2
+python test.py "${file1}" "${file2}"
 
+#file2 = sys.argv[2]
+#IndexError: list index out of range
 #python test.py $file1 $file2
 
 #debug lines
