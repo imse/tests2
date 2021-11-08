@@ -19,8 +19,7 @@
    "name": "Data",
    "obligation": true,
    "hasDefault": false,
-   "valueSchema": "string_parameter",
-   "target": "file1"
+   "valueSchema": "string_parameter"
 },
 {
   "id": "data2",
@@ -30,8 +29,7 @@
   "name": "Data end",
   "obligation": true,
   "hasDefault": false,
-  "valueSchema": "string_parameter",
-  "target": "file2"
+  "valueSchema": "string_parameter"
 }
   ],
   "outputs": [
