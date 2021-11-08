@@ -1,13 +1,18 @@
 #!/bin/bash
 
-read -p 'Start date: ' file1
-read -p 'Endd date: ' file2
+#read -p 'Start date: ' file1
+#read -p 'Endd date: ' file2
+
+read  file1
+read  file2
 
 #python test.py $f1 $f2
 echo $file1
 echo $file2
 
 python test.py $file1 $file2
+
+#python test.py $file1 $file2
 
 #debug lines
 ls -l img
