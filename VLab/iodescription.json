@@ -1,16 +1,5 @@
 {
-  "inputs": [
-    {
-      "id": "DataObject_0h3",
-      "inputType": "individual",
-      "valueType": "value",
-      "description": "Sentinel 2A scene",
-      "name": "Sentinel 2A scene",
-      "obligation": true,
-      "hasDefault": false,
-      "valueSchema": "sat_product",
-      "target": "img"
- },
+  "inputs": [  
  {
    "id": "data1",
    "inputType": "individual",
@@ -32,6 +21,17 @@
   "hasDefault": false,
   "valueSchema": "string_parameter",
   "target": "file2"
+},
+{
+  "id": "DataObject_0h3",
+  "inputType": "individual",
+  "valueType": "value",
+  "description": "Sentinel 2A scene",
+  "name": "Sentinel 2A scene",
+  "obligation": true,
+  "hasDefault": false,
+  "valueSchema": "sat_product",
+  "target": "img"
 }
   ],
   "outputs": [
