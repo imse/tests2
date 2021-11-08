@@ -11,7 +11,7 @@ echo 'hola'  #ok
 #echo file1 #print file1 as string
 
 #python test.py $1 $2
-python test.py $file1 $file2
+python test.py file1 file2
 
 #file2 = sys.argv[2]
 #IndexError: list index out of range
