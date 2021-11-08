@@ -17,8 +17,8 @@ python test.py file1 file2
 #debug lines
 ls -l img
 ls -d img
-#debug lines
-find . -name '*.SAFE'
+find  . -print
+find  -name '*.SAFE'
 
 
 #unzip '*.zip' -d /tmp/unzipped
