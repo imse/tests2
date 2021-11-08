@@ -1,0 +1,48 @@
+{
+  "inputs": [
+    {
+      "id": "DataObject_0h3",
+      "inputType": "individual",
+      "valueType": "value",
+      "description": "Sentinel 2A scene",
+      "name": "Sentinel 2A scene",
+      "obligation": true,
+      "hasDefault": false,
+      "valueSchema": "sat_product",
+      "target": "img"
+ },
+ {
+   "id": "data1",
+   "inputType": "individual",
+   "valueType": "value",
+   "description": "Data start_of_interval",
+   "name": "Data",
+   "obligation": true,
+   "hasDefault": false,
+   "valueSchema": "string_parameter",
+   "target": "file1"
+},
+{
+  "id": "data2",
+  "inputType": "individual",
+  "valueType": "value",
+  "description": "Data end_of_interval",
+  "name": "Data end",
+  "obligation": true,
+  "hasDefault": false,
+  "valueSchema": "string_parameter",
+  "target": "file2"
+}
+  ],
+  "outputs": [
+ {
+      "id": "output_file",
+      "outputType": "individual",
+      "valueType": "value",
+      "description": "The output file",
+      "name": "Output.txt",
+      "valueSchema": "url",
+      "target": "output.txt"
+    }
+  ]
+}

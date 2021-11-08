@@ -1,0 +1,16 @@
+{
+  "image": "iserra/tests2",
+  "resources": {
+    "memory_mb": "2000",
+    "cpu_units": ""
+ },
+  "container": {
+    "entryPoint": [
+      "/bin/bash",
+      "-c"
+ ],
+    "command": [
+      "./run.sh"
+ ]
+  }
+}
