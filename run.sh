@@ -17,7 +17,7 @@ python test.py $file1 $file2
 #debug lines
 ls -l img
 ls -d img
-find  . -print
+find  img -print
 find  -name '*.SAFE'
 
 
