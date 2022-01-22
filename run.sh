@@ -30,5 +30,5 @@ echo "hola"
 #debug lines
 ##ls -l img
 ##ls -d img
-find  img -print
-find  -name '*.SAFE'
+#find  img -print   #ok
+#find  -name '*.SAFE'  #ok
