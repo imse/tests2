@@ -65,7 +65,7 @@
       "description": "The output file",
       "name": "Output.txt",
       "valueSchema": "url",
-      "target": "output.txt"
+      "target": "./output.txt"
     }
   ]
 }
