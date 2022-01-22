@@ -7,13 +7,11 @@ import sys
 
 ARG=json.load(open("vlabparams.json","r"))
 
-print(bbox)
-print(file1)
-print(file2)
+print(ARG)
+
 
 
 
 output = "output.txt"
 with open(output, "w") as outputfile:
-    outputfile.write(file1 + '\n')
-    outputfile.write(file2)
+    outputfile.write(ARG + '\n')
