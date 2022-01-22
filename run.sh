@@ -20,6 +20,7 @@ echo "hola"
 #echo ${file1}
 #echo file1 #print file1 as string
 
+pyhton test.py
 #python test.py $1 $2
 #python test.py ${file1} ${file2}  #error
 
