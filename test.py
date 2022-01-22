@@ -24,4 +24,4 @@ output = "output.txt"
 with open(output, "w") as outputfile:
     #d = dict1.copy()
     #d.update(dict2)
-    outputfile.write('hola' + '\n')
+    outputfile.write(arg + '\n')
