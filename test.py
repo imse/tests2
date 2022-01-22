@@ -1,6 +1,6 @@
 
 import sys
-
+import json
 #file1 = sys.argv[1]   #geojosn file closed linestring
 
 
