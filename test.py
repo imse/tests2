@@ -14,9 +14,11 @@ for k,v in ARG.items():
         continue
     else:
         if (v is True)|(v=="true"):
-            v=""
-        arg+=" --"+" ".join([k,str(v)])
+            #v=""
+            v="true"
+        arg+=" -- "+" ".join([k,str(v)])
 
+print(str(ARG['bbox']))
 print("arguments")
 print(arg)
 
