@@ -20,7 +20,8 @@
     "obligation": false,
     "hasDefault": true,
     "defaultValue": false,
-    "valueSchema": "bbox"
+    "valueSchema": "bbox",
+    "target": "bbox_l"
 },
 {
      "id": "change",
