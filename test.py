@@ -2,17 +2,18 @@
 import sys
 
 #file1 = sys.argv[1]   #geojosn file closed linestring
-file1 = sys.argv[1]
-file2 = sys.argv[2]
-
-#area_latitude = (4.09, 4.93)
-#area_longitude = (43.29, 43.83)
 
 
+
+ARG=json.load(open("vlabparams.json","r"))
+
+print(bbox)
 print(file1)
 print(file2)
 
+
+
 output = "output.txt"
-with open(output, "a") as outputfile:
+with open(output, "w") as outputfile:
     outputfile.write(file1 + '\n')
     outputfile.write(file2)

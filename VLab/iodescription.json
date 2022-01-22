@@ -1,15 +1,37 @@
 {
-  "inputs": [  
+  "inputs": [
  {
    "id": "data1",
    "inputType": "individual",
    "valueType": "value",
    "description": "Data start_of_interval",
-   "name": "Data",
+   "name": "Data start",
    "obligation": true,
    "hasDefault": false,
    "valueSchema": "string_parameter",
    "target": "file1"
+},
+{
+    "id": "bbox",
+    "inputType": "individual",
+    "valueType": "value",
+    "description": "Bounding Box (numbers separated by commas: west,south,east,north)",
+    "name": "Bounding Box ",
+    "obligation": false,
+    "hasDefault": true,
+    "defaultValue": false,
+    "valueSchema": "bbox"
+},
+{
+     "id": "change",
+     "inputType": "individual",
+     "valueType": "value",
+     "description": "The model would assume changes in seasonality across years beyond the mean, true or false",
+     "name": "Yearly change\n (true or false)",
+     "obligation": false,
+     "hasDefault": true,
+      "defaultValue": true,
+     "valueSchema": "string_parameter"
 },
 {
   "id": "data2",
