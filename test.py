@@ -18,7 +18,7 @@ for k,v in ARG.items():
             v="true"
         arg+=" -- "+" ".join([k,str(v)])
 
-print(str(ARG['bbox']))
+print(str(ARG['bbox'][0]))
 print("arguments")
 print(arg)
 
